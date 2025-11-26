@@ -1,0 +1,63 @@
+/* Wrapper box */
+.wrapper {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+}
+
+/* Drag & drop box */
+.drop-box {
+    padding: 30px;
+    border: 2px dashed #666;
+    border-radius: 8px;
+    background: #fafafa;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* Upload button */
+.upload-btn {
+    padding: 10px 20px;
+    background: #0284c7;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.upload-btn:hover {
+    background: #0369a1;
+}
+
+/* Progress container */
+.progress-box {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Fill progress */
+.progress-fill {
+    height: 100%;
+    background: #16a34a;
+    border-radius: 5px;
+}
+
+/* File info text */
+.file-info {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Status message */
+.status-text {
+    margin-top: 10px;
+    color: #444;
+}
